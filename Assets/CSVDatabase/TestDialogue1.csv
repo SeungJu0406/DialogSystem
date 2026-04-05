@@ -1,0 +1,8 @@
+ID,NextID,Name,Text,FaceImage,Choice,,Choice,
+1,,Aran,Hello,Aran_Default,Choice1,5,Choice2,6
+2,,Evan,Hi,Evan_Default,,,,
+3,,Aran,Bye,Aran_Smile,,,,
+4,,Evan,WTF,Evan_Suprised,,,,
+5,7,Aran,What,Aran_Angry,,,,
+6,7,Evan,LOL,Evan_Smile2,,,,
+7,,Evan,Sry :p,Evan_Smile2,,,,

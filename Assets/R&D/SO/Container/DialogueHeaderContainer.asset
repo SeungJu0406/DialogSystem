@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1793de08ac462bf4d8c2b2d7eeab0728, type: 3}
+  m_Name: DialogueHeaderContainer
+  m_EditorClassIdentifier: 
+  Headers:
+  - {fileID: 11400000, guid: 19e64b605a80fd445be61b6dc97e003c, type: 2}
+  - {fileID: 11400000, guid: 6294a1ca0c580a04e962b876aff08e1d, type: 2}
+  - {fileID: 11400000, guid: 19c5ad5f34a48364a83b520ac03560ee, type: 2}
+  - {fileID: 11400000, guid: 2495d412d49e07248a43720e45ce9fe1, type: 2}
+  - {fileID: 11400000, guid: 6dc9b252befb25a40ae905304979872d, type: 2}
+  - {fileID: 11400000, guid: 73129fc5bfba5ff428197cdaf260a26e, type: 2}
+  - {fileID: 11400000, guid: 467885750c8bae24bbfe7001628d89b8, type: 2}

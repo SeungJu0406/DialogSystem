@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09247aea3106e5942bd6320985dda6c5, type: 3}
+  m_Name: DialogueScript
+  m_EditorClassIdentifier: 
+  _isUseCSV: 1
+  _CSVFileName: TestDialogue1
+  _CSVFolderPath: CSVDatabase
+  _headerContainer: {fileID: 11400000, guid: 4d48b3d313e1f154faa826f23bac3a60, type: 2}
+  _dialogueLines:
+  - _id: 1
+    TextElementas:
+    - Label: Name
+      Text: Aran
+    - Label: Text
+      Text: Hello
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Aran_Default
+    ChoiceElementas:
+    - Label: Choice
+      ChoiceText: Choice1
+      NextID: 5
+    - Label: Choice
+      ChoiceText: Choice2
+      NextID: 6
+    NextID: 
+  - _id: 2
+    TextElementas:
+    - Label: Name
+      Text: Evan
+    - Label: Text
+      Text: Hi
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Evan_Default
+    ChoiceElementas: []
+    NextID: 
+  - _id: 3
+    TextElementas:
+    - Label: Name
+      Text: Aran
+    - Label: Text
+      Text: Bye
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Aran_Smile
+    ChoiceElementas: []
+    NextID: 
+  - _id: 4
+    TextElementas:
+    - Label: Name
+      Text: Evan
+    - Label: Text
+      Text: WTF
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Evan_Suprised
+    ChoiceElementas: []
+    NextID: 
+  - _id: 5
+    TextElementas:
+    - Label: Name
+      Text: Aran
+    - Label: Text
+      Text: What
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Aran_Angry
+    ChoiceElementas: []
+    NextID: 7
+  - _id: 6
+    TextElementas:
+    - Label: Name
+      Text: Evan
+    - Label: Text
+      Text: LOL
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Evan_Smile2
+    ChoiceElementas: []
+    NextID: 7
+  - _id: 7
+    TextElementas:
+    - Label: Name
+      Text: Evan
+    - Label: Text
+      Text: Sry :p
+    ImageElementas:
+    - Label: FaceImage
+      Sprite: Evan_Smile2
+    ChoiceElementas: []
+    NextID: 
