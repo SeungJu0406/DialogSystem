@@ -1,4 +1,4 @@
-# DialogSystem
+<img width="453" height="338" alt="화면 캡처 2026-04-06 000106" src="https://github.com/user-attachments/assets/95182568-9d13-4419-b724-4db960549729" /># DialogSystem
 
 # 🗨️ NSJ Dialogue System — R&D
 
@@ -10,6 +10,8 @@
 ## 🔍 개요
 
 이 프로젝트는 **UI 슬롯을 Label 기반으로 추상화**하여, 코드 수정 없이 다양한 UI 구성에 대응할 수 있는 구조를 목표
+
+![녹음 2026-04-05 235311](https://github.com/user-attachments/assets/592ef14b-f738-42df-9925-e2a58fa898f2)
 
 ---
 
@@ -31,6 +33,7 @@ Utility
 ResourceFolder
 └── ResourcesContainer      # Addressables 기반 스프라이트 로더
 ```
+<img width="176" height="229" alt="화면 캡처 2026-04-06 000346" src="https://github.com/user-attachments/assets/24dc5e68-292c-451f-9d8e-11757b5e4467" />
 
 ---
 
@@ -53,10 +56,18 @@ UI 컴포넌트 타입에 관계없이 동일한 인터페이스
 "FaceImage" → Image     (캐릭터 이미지)
 "Choice"    → Transform (선택지 레이아웃)
 ```
+<img width="455" height="447" alt="화면 캡처 2026-04-05 235405" src="https://github.com/user-attachments/assets/b1da3169-eabf-4567-992a-fc1dc8ee0932" />
+<img width="247" height="178" alt="화면 캡처 2026-04-05 235521" src="https://github.com/user-attachments/assets/08bcc5ed-c44d-405c-baf2-49960983e498" />
+
 
 ### 3. 데이터 주도 설계 (CSV 연동)
 기획자가 Unity 에디터 없이 스프레드시트로 대화를 작성하고 관리 가능
 CSV 컬럼 구조 자체를 ScriptableObject로 정의하여, 포맷이 바뀌어도 코드 수정이 불필요함
+
+- csv연동
+<img width="454" height="297" alt="화면 캡처 2026-04-05 235908" src="https://github.com/user-attachments/assets/52330449-5c8c-4833-9ef5-25a6e25f366a" />
+<img width="453" height="338" alt="화면 캡처 2026-04-06 000106" src="https://github.com/user-attachments/assets/b0df9a4c-de80-4126-9ce3-708ef582fc22" />
+
 
 ### 4. ID 기반 분기
 ```
@@ -71,6 +82,7 @@ ID:1  Aran / "Hello"
 
 ## 📁 데이터 구조
 
+### Dialogue Line
 ```csharp
 DialogueLine
 ├── ID              // 이 라인의 식별자
@@ -79,6 +91,7 @@ DialogueLine
 ├── ImageElements   // [ { Label, SpriteName }, ... ]
 └── ChoiceElements  // [ { Label, ChoiceText, NextID }, ... ]
 ```
+<img width="445" height="515" alt="화면 캡처 2026-04-06 000450" src="https://github.com/user-attachments/assets/9b41b54a-b915-49c7-941e-2b376eba1591" />
 
 ---
 
