@@ -65,6 +65,9 @@ UI 컴포넌트 타입에 관계없이 동일한 인터페이스
 CSV 컬럼 구조 자체를 ScriptableObject로 정의하여, 포맷이 바뀌어도 코드 수정이 불필요함
 
 - csv연동
+<img width="960" height="194" alt="화면 캡처 2026-04-06 001606" src="https://github.com/user-attachments/assets/2f83571d-3c70-4d13-955b-c93229cddd26" />
+
+
 <img width="454" height="297" alt="화면 캡처 2026-04-05 235908" src="https://github.com/user-attachments/assets/52330449-5c8c-4833-9ef5-25a6e25f366a" />
 <img width="453" height="338" alt="화면 캡처 2026-04-06 000106" src="https://github.com/user-attachments/assets/b0df9a4c-de80-4126-9ce3-708ef582fc22" />
 
