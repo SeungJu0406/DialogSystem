@@ -1,4 +1,4 @@
-<img width="453" height="338" alt="화면 캡처 2026-04-06 000106" src="https://github.com/user-attachments/assets/95182568-9d13-4419-b724-4db960549729" /># DialogSystem
+# DialogSystem
 
 # 🗨️ NSJ Dialogue System — R&D
 
